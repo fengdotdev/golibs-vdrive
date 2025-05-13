@@ -8,11 +8,25 @@ import (
 
 type route = string
 
+
+
 type identifier = string
 
 const (
 	INDEXFILE = "index-VDRIVE.json"
 )
+
+type VFile struct {
+	identifier   string
+	relativePath string
+	fullpath     string
+	hash         string
+	createdAt    string
+	updatedAt    string
+	permissions  string
+	owner        string
+	metadata     map[string]string
+}
 
 type VDrive struct {
 	workingDir string
@@ -30,9 +44,6 @@ func NewVDrive() *VDrive {
 	}
 }
 
-func (v *VDrive) fullpath(relativePath string) (string, error) {
-
-}
 
 func (v *VDrive) LoadIndex() error {
 	fullpath := path.Join(v.workingDir, INDEXFILE)

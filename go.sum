@@ -1,0 +1,6 @@
+github.com/fengdotdev/golibs-helperfuncs v0.0.4 h1:oO/6I3g+HYLwiKy+d/hrAa8hKp5cMrhn2cmwR5gvUc0=
+github.com/fengdotdev/golibs-helperfuncs v0.0.4/go.mod h1:n0hQcHlvgEEKGGD0M/+7DbIdNOx97SZu2qK4tEUQKYI=
+github.com/fengdotdev/golibs-helperfuncs v1.0.0 h1:bXgsjrlsJLCZ1gaRlMU/ciV5mWZ6Ey5LZlZpZzHaSqc=
+github.com/fengdotdev/golibs-helperfuncs v1.0.0/go.mod h1:n0hQcHlvgEEKGGD0M/+7DbIdNOx97SZu2qK4tEUQKYI=
+github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
+github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
